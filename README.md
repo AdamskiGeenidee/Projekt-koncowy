@@ -127,6 +127,8 @@ Projekt będzie rozwijał się dynamicznie, zawsze gotowy na nowe pomysły.
    Dane o wydatkach są zapisywane w bazie danych Firebase, dzięki czemu są przechowywane nawet po odświeżeniu strony.
    
 7. Generowanie plików PDF w przeglądarkach internetowych.
+   ![PDF Report](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/b359a886-830a-4ea9-b22c-b9c2ea148a1c)
+
 
 
 
