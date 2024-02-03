@@ -66,14 +66,14 @@ const ExpensesForm = ({
         const formattedConvertedAmount = parseFloat(convertedAmount.toFixed(2));
         console.log("Converted amount:", formattedConvertedAmount);
         setConvertedAmount(convertedAmount);
-        setInputAmountForm(convertedAmount);  // Aktualizacja inputAmountForm po konwersji
-        setConvertedAmountDisplay(formattedConvertedAmount); // Aktualizacja stanu do wyświetlenia w polu "Amount to convert"
+        setInputAmountForm(convertedAmount);
+        setConvertedAmountDisplay(formattedConvertedAmount);
     };
 
     const handleAmountToConvertChange = (event) => {
         const newValue = event.target.value;
         setInputAmount(newValue);
-        setConvertedAmountDisplay(null); // Wyzerowanie wyświetlanej skonwertowanej kwoty przy edycji pola
+        setConvertedAmountDisplay(null);
     };
 
     return (
