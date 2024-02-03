@@ -125,8 +125,11 @@ Projekt będzie rozwijał się dynamicznie, zawsze gotowy na nowe pomysły.
 
 6. Zapisywanie danych w bazie danych Firebase:
    Dane o wydatkach są zapisywane w bazie danych Firebase, dzięki czemu są przechowywane nawet po odświeżeniu strony.
+
+   ![Realtime Database - Firebase console klein](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/a421561c-6bb1-4aae-87e3-d892a7d160f3)
+
    
-7. Generowanie plików PDF w przeglądarkach internetowych.
+8. Generowanie plików PDF w przeglądarkach internetowych.
    
    ![PDF Report](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/b359a886-830a-4ea9-b22c-b9c2ea148a1c)
 
