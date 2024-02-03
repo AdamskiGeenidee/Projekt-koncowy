@@ -1,6 +1,10 @@
 # Kalkulator Wydatków: Twój Osobisty Menedżer Finansów
 
 
+
+![Screenshot](Firebase Console.png)
+
+
 _**Pomysł:
 Marzysz o prostym i skutecznym narzędziu, które pomoże Ci w śledzeniu i zrozumieniu, jak zarządzasz swoimi codziennymi wydatkami? Oto Kalkulator Wydatków, stworzony z myślą o Tobie!**_
 
