@@ -10,7 +10,10 @@ _**Pomysł:
 Marzysz o prostym i skutecznym narzędziu, które pomoże Ci w śledzeniu i zrozumieniu, jak zarządzasz swoimi codziennymi wydatkami? Oto Kalkulator Wydatków, stworzony z myślą o Tobie!**_
 
 
-   ![Spenderbackground](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/969d5ac0-3939-4cde-aedc-9b39b15372a8)
+   <p align="center">
+  <img width="460" height="300" src="![Spenderbackground](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/2ebb396c-e789-41fb-b0e2-96d015af859f)
+">
+</p>
 
 
 **_Rozwiązanie:
