@@ -12,7 +12,7 @@ const ReportButton = ({ expenses, budget, handleAlert }) => {
         doc.text("Expenses Report", 20, 10);
 
         expenses.forEach((expense, index) => {
-            const { date, expense: charge, amount } = expense; // Zmiana charge na expense
+            const { date, expense: charge, amount } = expense;
             const formattedDate = new Date(date).toLocaleDateString("en-GB");
             const yPos = 20 + index * 10;
             doc.text(`${formattedDate} - ${charge} - €${amount}`, 20, yPos);
@@ -31,7 +31,7 @@ const ReportButton = ({ expenses, budget, handleAlert }) => {
 
         doc.save("Expenses_report.pdf");
 
-        // Po wygenerowaniu raportu wywołaj funkcję handlealert //
+        
         handleAlert({ type: "success", text: "PDF report generated" });
 
         // Console log raportu pdf //
