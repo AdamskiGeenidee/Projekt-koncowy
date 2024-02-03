@@ -17,6 +17,7 @@ Marzysz o prostym i skutecznym narzędziu, które pomoże Ci w śledzeniu i zroz
 Zapomnij o skomplikowanych arkuszach kalkulacyjnych czy programach, które bardziej przytłaczają niż pomagają. Moja aplikacja eliminuje trudności związane z monitorowaniem budżetu osobistego, umożliwiając Ci szybkie śledzenie wydatków i skuteczne planowanie finansów._**
 
 
+
 1. Must have !! :
 
 Dodawanie nowych wydatków.
