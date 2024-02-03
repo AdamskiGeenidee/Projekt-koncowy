@@ -123,7 +123,10 @@ Projekt będzie rozwijał się dynamicznie, zawsze gotowy na nowe pomysły.
 5. Przewalutowywanie zlotówek na euro:
    Aplikacja korzysta z interfejsu programistycznego (API) kursów walut Narodowego Banku Polskiego (NBP), aby dynamicznie przeliczać kwoty wydatków z polskich złotych na euro. Dzięki temu użytkownicy mogą śledzić aktualne kursy walutowe i dokonywać precyzyjnych przeliczeń w czasie rzeczywistym.
 
-6. Zapisywanie danych w bazie danych Firebase:
+   ![Convert](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/8d0cb151-ac0f-486c-bbb3-a8eb4def1646)
+
+
+7. Zapisywanie danych w bazie danych Firebase:
    Dane o wydatkach są zapisywane w bazie danych Firebase, dzięki czemu są przechowywane nawet po odświeżeniu strony.
 
    ![Realtime Database - Firebase console klein](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/a421561c-6bb1-4aae-87e3-d892a7d160f3)
