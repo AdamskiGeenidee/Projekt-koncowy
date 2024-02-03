@@ -12,7 +12,7 @@ export default function ExpensesList({
     const listRef = useRef(null);
 
     useEffect(() => {
-        // Automatycznie przewiń do ostatniego elementu przy każdej zmianie expenses
+        
         if (listRef.current) {
             listRef.current.scrollTop = listRef.current.scrollHeight;
         }
