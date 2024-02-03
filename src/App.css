@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+/* Roboto Font */
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*Container class*/
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* Wielkość ikony + */
+.icon-large {
+  font-size: 1.5em;
+}
+/* Text Alignment */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+/*Kop Text */
+.title {
+  font-size: 3.75rem;
+  font-weight: 500;
+  margin: 3rem 0;
+  text-align: center;
+  color: #9F87E3;
+}
+/*Text colors*/
+
+.text-primary {
+  color: #7633f9;
+}
+.text-success {
+  color: #28a745;
+}
+.text-danger {
+  color: #dc3545;
+}
+.text-light {
+  color: #f8f9fa;
+}
+/*Background colors*/
+.bg-primary {
+  background-color: #7633f9;
+}
+.bg-danger {
+  background-color: #dc3545;
+}
+/*Main Btn Class*/
+.btn,
+.btn-dark,
+.btn-light,
+.btn-warning,
+.btn-danger,
+.btn-success,
+.btn-primary {
+  margin: 0.25rem 0.125rem;
+  padding: 0.35rem 1.25rem;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  box-shadow: 0 2px 5px rgba(51, 51, 51, 0.3);
+  transition: 0.3s ease;
+}
+.btn:hover,
+.btn-light:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+.btn-primary:hover {
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.3s ease;
+  background: rgba(0, 0, 0, 0.75);
+}
+/* Btn Types*/
+.btn-primary {
+  background-color: #7633f9;
+  color: white;
+}
+.btn-primary:hover {
+  background: rgba(118, 51, 249, 0.75);
+}
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  margin-left: 87px;
+}
+.btn-danger:hover {
+  background: rgba(220, 53, 69, 0.75);
+}
+.btn-warning {
+  background-color: #ffc107;
+  color: #001f3f;
+}
+.btn-warning:hover {
+  background: rgba(255, 193, 7, 0.75);
+}
+.btn-light {
+  background-color: #f8f9fa;
+  color: black;
+}
+.btn-light:hover {
+  background: rgba(248, 249, 250, 0.75);
+}
+.btn-sm {
+  margin: 0.1875rem 0.09375rem;
+  padding: 0.2625rem 0.9375rem;
+  font-size: 12px;
+}
+.btn-block {
+  width: 100%;
+  margin-top: 25px;
+}
+/* Main alert class */
+.alert,
+.alert-info,
+.alert-danger,
+.alert-success {
+  width: 400px;
+  margin: 0.75rem;
+  padding: 1.25rem;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 0.45rem;
+  box-shadow: 0 0.15rem 0.55rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Alert types */
+.alert-success {
+  background: rgba(40, 167, 69, 0.35);
+  border: 1px solid #28a745;
+  color: #0f401b;
+  margin-left: 25px;
+}
+.alert-danger {
+  background: rgba(220, 53, 69, 0.35);
+  border: 1px solid #dc3545;
+  color: #7c151f;
+  margin-left: 25px;
+}
+/*Cards  */
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+}
+.card-body {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.card-body .btn,
+.card-body .btn-primary,
+.card-body .btn-success,
+.card-body .btn-danger,
+.card-body .btn-warning,
+.card-body .btn-info,
+.card-body .btn-light,
+.card-body .btn-dark {
+  margin-bottom: 2rem;
+}
+.card-header,
+.card-footer {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding: 1rem;
+  font-weight: 500;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.125);
+}
+.card-footer {
+  border-radius: 0 0 0.5rem 0.5rem;
+  border-bottom: none;
+  border-top: 1px solid rgba(102, 102, 102, 0.125);
+}
+/* Card Types */
+.card-primary {
+  border: 1px solid #7633f9;
+}
+.card-primary .card-header,
+.card-primary .card-footer {
+  background-color: #7633f9;
+  color: white;
+}
+.card-secondary {
+  border: 1px solid #ff9800;
+}
+.card-secondary .card-header,
+.card-secondary .card-footer {
+  background-color: #ff9800;
+  color: white;
+}
+.card-danger {
+  border: 1px solid #dc3545;
+}
+.card-danger .card-header,
+.card-danger .card-footer {
+  background-color: #dc3545;
+  color: white;
+}
+.card-warning {
+  border: 1px solid #ffc107;
+}
+.card-warning .card-header,
+.card-warning .card-footer {
+  background-color: #ffc107;
+  color: white;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.form-group input,
+.form-group select {
+  border: 1px solid rgba(238, 238, 238, 0.9333333333);
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 100%;
+}
+/* Ramka */
+.outer-frame {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./project/components/euro-dollar-bills.jpg'); /* Obraz jako tło */
+  background-size: cover; /* Wypełnić całą ramkę */
+  position: relative;
+}
+.outer-frame:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1cm solid transparent; /* Wymaganą szerokość */
+  box-sizing: border-box;
+}
+.inner-frame {
+  background-color: white; /* Białe tło dla wewnętrznej ramki */
+  background-color: rgba(255, 255, 255, 0.97); /* Przezroczyste tło dla .inner-frame */
+  box-sizing: border-box;
+  width: calc(100% - 2cm); /* Szerokość wewnętrznej ramki to 100% minus 2cm zewnętrznego bordera */
+  height: calc(100% - 2cm); /* Wysokość wewnętrznej ramki to 100% minus 2cm zewnętrznego bordera */
+  overflow: auto;
+  position: relative;
+  border-radius: 10px; /* Zaokrąglenie rogów */
+}
+/* Kolor Scrollbar */
+.list {
+  scrollbar-color: #7633f9 #ffc107; /* Kolor kciuka i tła */
+}
+.Convertbutton {
+  background-color: #888888;  /* Przykładowy kolor tła */
+  color: black;  /* Przykładowy kolor tekstu */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.Convertbutton:hover {
+  background: #666666;
+  transition: 0.3s ease;
+}

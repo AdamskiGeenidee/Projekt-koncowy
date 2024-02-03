@@ -1,0 +1,18 @@
+.report-button {
+    background-color: #4caf50; /* Zielony kolor tła */
+    color: #ffffff; /* Biały kolor tekstu */
+    padding: 9px; /* Dodatkowy odstęp wewnątrz przycisku */
+    border: none; /* Brak obramowania */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    cursor: pointer; /* Kursor wskazujący, aby wskazywać, że to interaktywny element */
+    display: flex; /* Ustawia elementy dziecka (ikony i tekst) w jednej linii */
+    align-items: center; /* Wyśrodkuj elementy w osi pionowej */
+    margin-top: 12px;
+}
+.report-button:hover {
+    background: #388e3c;
+    transition: 0.3s ease;
+}
+.pdf-icon {
+    margin-right: 5px; /* Dodatkowy margines między ikonami a tekstem */
+}
