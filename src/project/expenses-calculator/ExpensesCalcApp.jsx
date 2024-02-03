@@ -11,7 +11,6 @@ import { ref, set, child, onValue } from 'firebase/database';
 import { db } from "../../firebase";
 import Gif from "../components/Gif";
 
-// Inicjalizacja Firebase (musisz to zrobić tylko raz w całej aplikacji)
 const database = db;
 
 function ExpensesCalcApp() {
