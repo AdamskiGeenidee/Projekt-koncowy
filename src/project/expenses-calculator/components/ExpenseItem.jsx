@@ -12,7 +12,7 @@ export default function ExpenseItem({ expense, handleEdit, handleDelete }) {
               className="d-flex flex-column"
               style={{ alignItems: "flex-start" }}
           >
-            <h4 className="text-primary"> {expenseName}</h4> {/* Zmiana z charge na expenseName */}
+            <h4 className="text-primary"> {expenseName}</h4>
             <small className="text-danger">{date}</small>
           </div>
           <div className="text-success">€{amount}</div>
