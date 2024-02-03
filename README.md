@@ -9,6 +9,10 @@
 _**Pomysł:
 Marzysz o prostym i skutecznym narzędziu, które pomoże Ci w śledzeniu i zrozumieniu, jak zarządzasz swoimi codziennymi wydatkami? Oto Kalkulator Wydatków, stworzony z myślą o Tobie!**_
 
+
+![Spenderbackground](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/969d5ac0-3939-4cde-aedc-9b39b15372a8)
+
+
 **_Rozwiązanie:
 Zapomnij o skomplikowanych arkuszach kalkulacyjnych czy programach, które bardziej przytłaczają niż pomagają. Moja aplikacja eliminuje trudności związane z monitorowaniem budżetu osobistego, umożliwiając Ci szybkie śledzenie wydatków i skuteczne planowanie finansów._**
 
