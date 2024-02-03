@@ -4,7 +4,7 @@ import { ExpenseItemStyle } from "./styles/ExpenseItam.style";
 
 export default function ExpenseItem({ expense, handleEdit, handleDelete }) {
   const { id, expense: expenseName, date, amount } = expense;
-  // Zmiana z charge na expenseName
+  
   return (
       <ExpenseItemStyle>
         <div className="expense-details">
