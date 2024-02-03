@@ -92,9 +92,11 @@ Projekt będzie rozwijał się dynamicznie, zawsze gotowy na nowe pomysły.
 
 ###### uuid: Biblioteka służąca do generowania unikalnych identyfikatorów UUID.
 
-###### Interfejs programistyczny (API): (API) kursów walut Narodowego Banku Polskiego (NBP), aby dynamicznie przeliczać kwoty wydatków z  polskich złotych na euro.
+###### (API) Interfejs programistyczny : (API) kursów walut Narodowego Banku Polskiego (NBP), aby dynamicznie przeliczać kwoty wydatków z  polskich złotych na euro.
 
 ###### Firebase Data Base: Firebase Database to usługa bazodanowa w chmurze, która umożliwia przechowywanie i synchronizację danych w czasie rzeczywistym między różnymi urządzeniami.
+
+###### jsPDF: To biblioteka JavaScript służąca do generowania plików PDF w przeglądarkach internetowych.
 
 ##### Funkcjonalności:
 
@@ -118,6 +120,10 @@ Projekt będzie rozwijał się dynamicznie, zawsze gotowy na nowe pomysły.
 
 6. Zapisywanie danych w bazie danych Firebase:
    Dane o wydatkach są zapisywane w bazie danych Firebase, dzięki czemu są przechowywane nawet po odświeżeniu strony.
+   
+7. Generowanie plików PDF w przeglądarkach internetowych.
+
+
 
 #### Przejście przez Implementowane Funkcjonalności:
 
@@ -152,4 +158,3 @@ Projekt będzie rozwijał się dynamicznie, zawsze gotowy na nowe pomysły.
 ###### Zapisywanie danych w bazie danych Firebase dla trwałości.
 
 #### Aplikacja jest zaprojektowana do obsługi codziennego zarządzania wydatkami, umożliwiając użytkownikowi kontrolę nad budżetem i monitorowanie wydatków w prosty sposób.
-
