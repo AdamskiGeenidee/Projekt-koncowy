@@ -2,7 +2,8 @@
 
 
 
-![Screenshot](Firebase Console.png)
+![Firebase Console](https://github.com/AdamskiGeenidee/Projekt-koncowy/assets/127992622/b09169d6-571b-49d1-b202-eb8024c56cd6)
+
 
 
 _**Pomysł:
