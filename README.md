@@ -2,7 +2,7 @@
 
 
 
-![Screenshot](screenshot.png)
+![Screenshot](Firebase Console.png)
 
 
 _**Pomysł:
